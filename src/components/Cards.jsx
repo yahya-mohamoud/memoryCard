@@ -10,8 +10,8 @@ export default function Cards({ data, onclick, score, bestScore }) {
   return (
     <main>
       <div className="score">
-        <h2>Score: {score}</h2>
-        <h2>Best Score: {bestScore}</h2>
+        <h2 className='scoreName'>Score: {score}</h2>
+        <h2 className='scoreName'>Best Score: {bestScore}</h2>
       </div>
       <div className='cards'>
         {cards}

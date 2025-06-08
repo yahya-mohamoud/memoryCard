@@ -30,7 +30,6 @@ function App() {
   }, [])
 
  function handleClick(index) {
-    // console.log(data)
      const shuffled = [...data].sort(() => 0.5 - Math.random())
     
      if(!isClicked.includes(index)) {
@@ -45,7 +44,6 @@ function App() {
      }
 
      setData(shuffled)
-     console.log(isClicked);
      
   }
 
